@@ -32,6 +32,14 @@
                     <jcrRootSourceDirectory>${project.build.outputDirectory}</jcrRootSourceDirectory>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>io.wcm.maven.plugins</groupId>
+                <artifactId>wcmio-content-package-maven-plugin</artifactId>
+                <version>1.7.0</version>
+                <configuration>
+                    <serviceURL>http://localhost:8080/bin/cpm/package.upload.json</serviceURL>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
