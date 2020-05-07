@@ -19,11 +19,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>${resource.valueMap['title']}</title>
+        <title>${properties.title}</title>
     </head>
     <body>
-        <h1>${resource.valueMap['title']}</h1>
-        <p>${resource.valueMap['content']}.</p>
+        <h1>${properties.title}</h1>
+        <p>${properties.content}</p>
         <p data-sly-use.time="Time">Generated at ${time.current}.</p>
     </body>
 </html>
