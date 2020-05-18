@@ -1,0 +1,5 @@
+github:
+  description: Apache Sling Content Package Archetype
+  labels:
+    - java
+    - sling
