@@ -78,6 +78,30 @@
                     <serviceURL>http://localhost:8080/bin/cpm/package.upload.json</serviceURL>
                 </configuration>
             </plugin>
+            <!-- For Apache projects that check for LICENCE and NOTICE files you need
+                 to uncomment the following plugin declaration, otherwise the build will fail -->
+            <!--
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-legal-files</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>\${project.build.directory}/vault-work/META-INF</outputDirectory>
+                            <resources>
+                                <resources>
+                                    <directory>\${project.build.directory}/maven-shared-archive-resources/META-INF/</directory>
+                                </resources>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            -->
         </plugins>
     </build>
     
