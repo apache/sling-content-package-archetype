@@ -28,7 +28,7 @@
     </parent>
 
     <artifactId>sling-content-package-archetype</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
 
     <name>Apache Sling Content Package Archetype</name>
