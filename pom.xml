@@ -36,6 +36,13 @@
     <name>Apache Sling Content Package Archetype</name>
     <description>Maven archetype for a Jackrabbit FileVault content package</description>
 
+    <scm>
+        <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-content-archetype.git</connection>
+        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-content-archetype.git</developerConnection>
+        <url>https://gitbox.apache.org/repos/asf?p=sling-content-archetype.git</url>
+      <tag>HEAD</tag>
+   </scm>
+
     <build>
         <extensions>
             <extension>
