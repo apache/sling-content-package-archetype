@@ -42,7 +42,7 @@
             <plugin>
                 <groupId>org.apache.jackrabbit</groupId>
                 <artifactId>filevault-package-maven-plugin</artifactId>
-                <version>1.1.2</version>
+                <version>1.1.4</version>
                 <extensions>true</extensions>
                 <configuration>
                     <jcrRootSourceDirectory>\${project.build.outputDirectory}</jcrRootSourceDirectory>
