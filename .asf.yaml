@@ -1,5 +1,15 @@
 github:
-  description: Apache Sling Content Package Archetype
+  description: "Apache Sling Content Package Archetype"
   labels:
-    - java
-    - sling
+  - "java"
+  - "sling"
+  autolink_jira:
+  - "SLING"
+  - "OAK"
+  - "JCR"
+  - "JCRVLT"
+  - "INFRA"
+  - "FELIX"
+  - "MNG"
+notifications:
+  jira_options: "link"
