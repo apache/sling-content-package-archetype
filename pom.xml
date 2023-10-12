@@ -37,7 +37,7 @@
     <scm>
         <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-content-package-archetype.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-content-package-archetype.git</developerConnection>
-        <url>https://gitbox.apache.org/repos/asf?p=sling-content-package-archetype.git</url>
+        <url>https://github.com/apache/sling-content-package-archetype.git</url>
       <tag>sling-content-package-archetype-1.0.0</tag>
   </scm>
 
