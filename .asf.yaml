@@ -1,8 +1,10 @@
 github:
-  description: "Apache Sling Content Package Archetype"
+  description: "Apache Sling Content Package Archetype (deprecated)"
+  homepage: "https://sling.apache.org/"
   labels:
   - "java"
   - "sling"
+  - "deprecated"
   autolink_jira:
   - "SLING"
   - "OAK"
